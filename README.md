@@ -6,17 +6,17 @@ You can also use it as it is.Just change the username,api key,recepient and mess
 The Api key and username can be obtained from AfricasTalking user account dashboard
 
 # Requirements
-1.PHP 7
-2.Apache server
-3.PHP Curl
+1. PHP 7
+2. Apache server
+3. PHP Curl
 
 # SetUp
 In ubuntu
 
-apt-get install php libapache2-mod-php php-mcrypt php-curl
-apt-get install apache2
-nano /etc/apache2/mods-enabled/dir.conf then add index.php
-service apache2 restart
-clone the repo to the apache root folder i.e /var/www/html
-call the script using the browser http://localhost/AfricasTalkingSmsApi/testsms.php
+1. apt-get install php libapache2-mod-php php-mcrypt php-curl
+2. apt-get install apache2
+3. nano /etc/apache2/mods-enabled/dir.conf then add index.php
+4. service apache2 restart
+5. clone the repo to the apache root folder i.e /var/www/html
+6. call the script using the browser http://localhost/AfricasTalkingSmsApi/testsms.php
 
